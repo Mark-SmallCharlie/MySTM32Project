@@ -1,0 +1,26 @@
+Dependencies for Project 'STM32', Target 'STM32': (DO NOT MODIFY !)
+CompilerVersion: <unknown>
+F (.\ASM\startup_stm32f10x_hd.s)(0x68CBAB69)(--cpu Cortex-M3 -g --apcs=interwork -I C:\Users\Administrator\Desktop\Template\Timer\Timer\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 514" --pd "STM32F10X_HD SETA 1"--list .\listings\startup_stm32f10x_hd.lst --xref -o .\objects\startup_stm32f10x_hd.o --depend .\objects\startup_stm32f10x_hd.d)
+F (.\Library\src\stm32f10x_gpio.c)(0x68CBAB6A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Library\inc -I.\System -I.\User -I.\STM32f10x_it-I C:\Users\Administrator\Desktop\Template\Timer\Timer\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_gpio.o --omf_browse .\objects\stm32f10x_gpio.crf --depend .\objects\stm32f10x_gpio.d)
+I (.\Library\inc\stm32f10x_gpio.h)(0x68CBAB69)
+I (.\System\stm32f10x.h)(0x68CBAB6A)
+I (.\System\core_cm3.h)(0x68CBAB6A)
+F (.\Library\src\stm32f10x_rcc.c)(0x6960A814)()
+F (.\Library\src\stm32f10x_exti.c)(0x68CBAB6A)()
+F (.\Library\src\misc.c)(0x68CBAB69)()
+F (.\Library\src\stm32f10x_tim.c)(0x68CBAB6A)()
+F (.\Library\src\stm32f10x_usart.c)(0x68CBAB6A)()
+F (.\Library\src\stm32f10x_adc.c)(0x68CBAB6A)()
+F (.\System\core_cm3.c)(0x68CBAB6A)()
+F (.\System\system_stm32f10x.c)(0x68CBAB6A)()
+F (.\main.c)(0x69EC5DA1)()
+F (.\User\delay.c)(0x69EC5530)()
+F (.\User\key.c)(0x69EC5530)()
+F (.\User\led.c)(0x69EC5333)()
+F (.\User\exti.c)(0x695FD01D)()
+F (.\User\timer.c)(0x69EC5C14)()
+F (.\User\dht11.c)(0x6940D08B)()
+F (.\User\usart.c)(0x69EC5530)()
+F (.\User\adc.c)(0x69EC48A4)()
+F (.\User\bh1750.c)(0x69EC60BD)()
+F (.\STM32f10x_it\stm32f10x_it.c)(0x690C1CD0)()
