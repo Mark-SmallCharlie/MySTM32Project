@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"t13\startup_stm32f103xe.o"
+"t13\main.o"
+"t13\gpio.o"
+"t13\usart.o"
+"t13\stm32f1xx_it.o"
+"t13\stm32f1xx_hal_msp.o"
+"t13\stm32f1xx_hal_gpio_ex.o"
+"t13\stm32f1xx_hal_tim.o"
+"t13\stm32f1xx_hal_tim_ex.o"
+"t13\stm32f1xx_hal_uart.o"
+"t13\stm32f1xx_hal.o"
+"t13\stm32f1xx_hal_rcc.o"
+"t13\stm32f1xx_hal_rcc_ex.o"
+"t13\stm32f1xx_hal_gpio.o"
+"t13\stm32f1xx_hal_dma.o"
+"t13\stm32f1xx_hal_cortex.o"
+"t13\stm32f1xx_hal_pwr.o"
+"t13\stm32f1xx_hal_flash.o"
+"t13\stm32f1xx_hal_flash_ex.o"
+"t13\stm32f1xx_hal_exti.o"
+"t13\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "T13\T13.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "T13.map" -o T13\T13.axf
